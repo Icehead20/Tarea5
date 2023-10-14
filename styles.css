@@ -38,7 +38,7 @@ body {
 .side {
   width: 30%;
   padding: 20px;
-  background-color: #BBACAF;
+  background-color: white;
   border-left: 5px solid #BBACAF;
 }
 .side h2 {
@@ -61,7 +61,7 @@ body {
   width: 65%;
   border-left: 5px solid #BBACAF;
   padding: 20px;
-  background-color: #BBACAF;
+  background-color: white;
 }
 .article h2 {
   color: #385072;
