@@ -1,0 +1,137 @@
+body {
+  background-image: url('img/fondo.jpg');
+  background-size: cover;
+  background-color: #BBACAF;
+  font-family: Arial, sans-serif;
+}
+.header {
+  text-align: center;
+  background-color: #2962A7;
+  height: 303px;
+  color: white;
+  background-image: url('img/wallpaper2.jpg');
+}
+.header .HeaderDesc {
+  color: #D7434F;
+}
+.navbar {
+  background-color: #BBACAF;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 0;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: #DAD4E0;
+  color: #58699d;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+.side {
+  width: 30%;
+  padding: 20px;
+  background-color: #BBACAF;
+  border-left: 5px solid #BBACAF;
+}
+.side h2 {
+  color: #385072;
+}
+.side h5 {
+  color: #CB384B;
+}
+.side p {
+  font-family: Arial, sans-serif;
+}
+.side .fakeimg {
+  text-align: center;
+}
+.side img {
+  width: 70%;
+  max-width: 100%;
+}
+ .article {
+  width: 65%;
+  border-left: 5px solid #BBACAF;
+  padding: 20px;
+  background-color: #BBACAF;
+}
+.article h2 {
+  color: #385072;
+}
+.article h5 {
+  color: #CB384B;
+}
+.footer {
+  text-align: center;
+  background-color: #9B847B;
+  background-image: url('img/footer.jpg');
+  color: white;
+  padding: 20px;
+}
+.toursnews {
+  background-color: #BBACAF;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+}
+.toursnews img {
+  border-radius: 50%;
+}
+.toursnews a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+.toursnews a:hover {
+  background-color: #DAD4E0;
+  color: #BBACAF;
+}
+.fakeimg img {
+  display: block;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .side {
+    width: 30%;
+    padding: 20px;
+    background-color: white;
+    border-left: 5px solid #BBACAF;
+    text-align: left;
+  }
+  .side img {
+	width: 20%;
+	max-width: 500%;
+  }
+  .article {
+    width: 60%;
+    border-left: none;
+    padding: 20px;
+    background-color: white;
+	text-align: left;
+  }
+  article img {
+	width: 80%;
+	height: 90%;
+	max-width: 100%;
+  }
+}
+.toursnews {
+  background-color: #BBACAF;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
