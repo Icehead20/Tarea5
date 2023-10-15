@@ -1,7 +1,7 @@
 body {
   background-image: url('img/fondo.jpg');
   background-size: cover;
-  background-color: #BBACAF;
+  background-color: white;
   font-family: Arial, sans-serif;
 }
 .header {
@@ -99,6 +99,12 @@ body {
   margin: 0 auto;
 }
 @media (min-width: 768px) {
+body {
+  background-image: url('img/fondo.jpg');
+  background-size: cover;
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
   .main {
     display: flex;
     flex-wrap: wrap;
